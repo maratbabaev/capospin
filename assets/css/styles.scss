@@ -285,7 +285,7 @@ header {
 
 .banner {
 	position: relative;
-	aspect-ratio: 448/192;
+	height: 192px;
 	overflow: hidden;
 	border-radius: 16px;
 	padding: 12px;
@@ -975,6 +975,7 @@ footer {
 	.banner {
 		width: 100%;
 		min-width: 100%;
+		height: 315px;
 	}
 }
 
@@ -1072,6 +1073,7 @@ footer {
 		width: 90vw;
 		min-width: 90vw;
 		padding: 12px;
+		height: 148px;
 	}
 	.cards__nav__btns {
 		display: none;
